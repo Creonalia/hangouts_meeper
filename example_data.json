@@ -1,0 +1,62 @@
+{
+    "reply_groups": {
+        "quote": {
+            "chance": 10,
+            "type": "single",
+            "replies": [
+                "a duck walked up to a lemonade stand",
+                "i love books -ruby",
+                "i said no, you know, like a liar",
+                "respect the rng",
+                "singapore",
+                "kiwi is judging you",
+                "all hail the crane"
+            ]
+        },
+
+        "meeper": {
+            "chance": 10,
+            "type": "single",
+            "keyword": "meeper",
+            "replies": [
+                "this is meeper",
+                "whos that",
+                "meeper wants to meep",
+                "thats me",
+                "meeper is questioning its existence",
+                "meeper is hungry",
+                "meeper is sleepy"
+            ]
+        }
+    },
+    "keywords": {
+        "meep": [
+            "mep",
+            "meep",
+            "MEEP"
+        ],
+        "hello": [
+            "hi",
+            "hello",
+            "goodbye"
+        ]
+    },
+    "hangouts_data": {
+        "conversations": {
+            "log": {
+                "id": "HANGOUTS_CONVERSATION_ID_HERE",
+                "reply_to": true,
+                "load_history": true
+            }
+        },
+        "users": {
+            "qwerty": {
+                "id": "HANGOUTS_USER_ID_HERE",
+                "admin": true,
+                "reply_to": true
+            }
+        }
+    },
+    "history_file": "messages_history.txt",
+    "notify_keyword": "!notify"
+}

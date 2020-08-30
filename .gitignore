@@ -1,3 +1,9 @@
+**/.vscode
+token.txt
+*messages*.txt
+temp.txt
+reply_data.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
