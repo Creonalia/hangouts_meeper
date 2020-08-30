@@ -93,9 +93,9 @@ class Bot:
             # but it was the best i could come up with
             messages = [
                 " ::".join(
-                    conv.get_user(event.user_id).first_name,
+                    (conv.get_user(event.user_id).first_name,
                     utils.datetime_to_string(event.timestamp),
-                    event.text
+                    event.text)
                 )
                 for event in events
                 if (isinstance(event, hangups.ChatMessageEvent))
