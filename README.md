@@ -1,6 +1,6 @@
 # hangouts_meeper
 
-hangouts bot to reply to messages and other random things
+hangouts bot to reply to messages and other random things.
 not really any commits since I had personal info in the commits so I made a new repository
 
 ## Setup
