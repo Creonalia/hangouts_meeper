@@ -1,4 +1,4 @@
-import bot
-
-current_bot = bot.Bot()
-current_bot.run()
+import bot # imports bot
+# empty line
+current_bot = bot.Bot() # creates bot
+current_bot.run() # runs bot
